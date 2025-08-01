@@ -14,4 +14,6 @@ if rewardRemote then
     connection = RunService.RenderStepped:Connect(function()
         pcall(function()
             rewardRemote:FireServer()
-  n
+        end)
+    end)
+end
